@@ -1,4 +1,4 @@
-import { publicRequest } from "../../config";
+import { publicRequest } from "./config";
 
 export const loginCall = async (userCredential, dispatch) => {
   dispatch({ type: "LOGIN_START" });
